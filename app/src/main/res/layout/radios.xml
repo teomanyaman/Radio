@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeRadios"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_radios"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/radyolar"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@color/colorPrimary" />
+
+        <ImageView
+            android:id="@+id/image_favouriteRadios"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/favori_beyaz"/>
+
+        <EditText
+            android:id="@+id/edit_searchRadios"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/search_bg"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/text_radios"
+            android:layout_margin="5dp"
+            android:paddingLeft="100dp"
+            android:hint="@string/radyoAra"
+            android:textColorHint="#878282"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@android:drawable/ic_menu_search"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeRadios">
+
+        <ListView
+            android:id="@+id/listView_radios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:divider="#FFF" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

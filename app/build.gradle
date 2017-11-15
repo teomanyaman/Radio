@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.0'
+
+    defaultConfig {
+        applicationId "com.teomanyaman.radio"
+        minSdkVersion 17
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+
+    aaptOptions {
+        cruncherEnabled = false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':library')
+    compile 'com.android.support:appcompat-v7:27.0.0'
+    compile 'com.android.support:support-v13:27.0.0'
+    compile 'com.android.support:design:27.0.0'
+    compile 'com.github.bumptech.glide:glide:4.3.1'
+    compile 'com.android.support:cardview-v7:27.0.0'
+    compile 'com.android.support:recyclerview-v7:27.0.0'
+    compile 'de.hdodenhof:circleimageview:2.2.0'
+
+}
