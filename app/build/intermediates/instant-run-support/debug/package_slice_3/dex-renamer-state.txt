@@ -1,0 +1,4 @@
+#Wed Nov 15 09:34:40 EET 2017
+base.0=D\:\\GitHubProject\\Radio\\Radio\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+renamed.0=classes.dex
+file.0=D\:\\GitHubProject\\Radio\\Radio\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3\\classes.dex

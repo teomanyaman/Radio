@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\GitHubProject\\Radio\\Radio\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "D:\\GitHubProject\\Radio\\Radio\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "1,4,3,2",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "17,197,146,101",
+                        "endColumns": "82,61,49,43",
+                        "endOffsets": "95,254,191,140"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,138,200,250",
+                        "endColumns": "82,61,49,43",
+                        "endOffsets": "133,195,245,289"
+                    }
+                }
+            ]
+        }
+    ]
+}

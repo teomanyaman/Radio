@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Radio - Turkish Radio Channels - Radio Listen</string>
+    <string name="lutfenBekleyiniz">Please Waiting..</string>
+    <string name="radyoAra">Search Radio</string>
+    <string name="radyolar">Radios</string>
+</resources>
