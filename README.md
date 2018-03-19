@@ -10,8 +10,8 @@
 ### You can use it by adding your own freqs:
 
 ### App ScreenShot:
-<a href="https://i.hizliresim.com/6ypDy9.png"><img src="https://i.hizliresim.com/6ypDy9.png" height="667" width="375"></a>
-<<a href="https://hizliresim.com/WG8XGQ"><img src="https://i.hizliresim.com/WG8XGQ.png" height="667" width="375"></a>
+<a href="https://hizliresim.com/6ypDy9"><img src="https://i.hizliresim.com/6ypDy9.png" height="667" width="375"></a>
+<a href="https://hizliresim.com/WG8XGQ"><img src="https://i.hizliresim.com/WG8XGQ.png" height="667" width="375"></a>
 <a href="https://hizliresim.com/RO8gOn"><img src="https://i.hizliresim.com/RO8gOn.png" height="667" width="375"></a>
 <<a href="https://hizliresim.com/pGM5Gn"><img src="https://i.hizliresim.com/pGM5Gn.png" height="667" width="375"></a>
 
